@@ -1,0 +1,379 @@
+.main-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-right: 600px;
+}
+
+.green-text {
+    color: #00b39b;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-nav a:hover {
+    color: #00b39b  ;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-paragraph, .right-paragraph {
+    flex: 1;
+    padding: 10px;
+}
+
+.green-box {
+    background-color: #00ccb1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.green-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.green-box a:hover {
+    text-decoration: underline;
+}
+
+#country-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.select-wrapper::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+}
+
+.blue-box {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue-box p {
+    font-size: 16px;
+}
+
+.blue-marine-box {
+    background-color: #1b2734;;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue-marine-box p {
+    font-size: 16px;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold
+
+    
+}
+.main-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+h1 {
+    font-size: 30px;
+}
+
+.green-text {
+    color: #00b39b;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-nav a:hover {
+    color: #00b39b;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permet d'afficher les éléments sur plusieurs lignes si nécessaire */
+}
+
+.left-paragraph, .right-paragraph, .green-box, .blue-box, .blue-marine-box {
+    flex: 1;
+    padding: 10px;
+    margin: 5px; /* Espacement entre les boîtes */
+}
+
+.green-box, .blue-box, .blue-marine-box {
+    text-align: center;
+    color: rgb(24, 21, 21);
+}
+
+.green-box {
+    background-color: #00b39b;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.blue-marine-box {
+    background-color: navy;
+}
+
+#country-select, #another-country-select,#specialistes-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.select-wrapper::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+}.green-box, .blue-box, .blue-marine-box {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments verticalement */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+}
+.image_centre{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+    
+.green-text {
+    color: #00b39b;
+}
+    .side-nav {
+        width: 200px; /* Ajustez la largeur de la barre latérale selon vos besoins */
+        background-color: #f0f0f0; /* Couleur de fond de la barre latérale */
+        position: fixed; /* Pour maintenir la barre latérale fixe lors du défilement */
+        top: 0;
+        left: 0;
+        height: 100%; /* Remplit toute la hauteur de la page */
+        padding: 20px; /* Espace intérieur de la barre latérale */
+    }
+    
+    .side-nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .side-nav li {
+        margin-bottom: 10px; /* Espacement entre les liens */
+    }
+    
+    .side-nav a {
+        text-decoration: none;
+        color: #333; /* Couleur du texte des liens */
+    }
+    
+    .side-nav a:hover {
+        color: green; /* Couleur du texte des liens au survol */
+    }
+   .h2 {
+    margin-left: 0%;
+   }
+   /* Style pour le conteneur de la grille */
+.grid {
+    background-color:white#4CAF50; /* Couleur verte de fond */
+    padding: 20px;
+}
+
+/* Style pour les éléments "fade-elements" */
+.fade-elements__visible {
+    background: white; /* Couleur de fond blanche */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur */
+    margin: 10px; /* Marge extérieure entre les éléments */
+}
+
+/* Style pour les titres h3 */
+.stats__item h3 {
+    font-size: 20px;
+}
+
+/* Style pour les images */
+.stats__item img {
+    max-width: 100%;
+}
+
+/* Style pour les paragraphes */
+.stats__item p {
+    font-size: 14px;
+}
+
+/* Style pour les boîtes "vert-align" */
+.vert-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Style pour les titres h3 avec saut de ligne */
+.stats__item h3 br {
+    display: none; /* Masquer les sauts de ligne dans les titres h3 */
+}
+
+/* Style pour les boîtes à l'intérieur des éléments "fade-elements" */
+.stats__item > div {
+    text-align: center;
+}
+
+/* Style pour les boîtes avec des bordures */
+.stats__item > div {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+}
+/* Style pour la section */
+section {
+    /* Couleur verte */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style pour les éléments avec la classe col-2 */
+.col-2 {
+    display: inline-block;
+    width: calc(33.33% - 20px); /* Calcul pour répartir les éléments de manière égale */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    background-color: white; /* Couleur de fond des boîtes */
+    text-align: center;
+    border: 1px solid #ccc; /* Bordure grise autour des boîtes */
+}
+
+.world{
+    background-color: #00b39b;
+    display: flex;
+}
+
+.Leader{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leader-bg{
+    background-color: white;
+    margin: 10px;
+}
+
+.leader-bg h1{
+    color: #00b39b;
+    font-size: 30px;
+}
+
+.leader-bg p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
